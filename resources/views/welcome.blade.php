@@ -82,7 +82,7 @@
                     Em breve
                 </div>
                 <div>
-                    <img src="http://www.alerj.rj.gov.br/Content/imagens/logotipo.png" alt="">
+                    <img src="/img/logo.png" alt="">
                 </div>
             </div>
         </div>
