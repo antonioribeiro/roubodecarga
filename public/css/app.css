@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(/fonts/app/stylesheet.css);@charset "UTF-8";
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -11717,6 +11717,10 @@ section.header a i {
 
 section.slider {
   background-color: white;
+}
+
+section.slider h1 {
+  font-family: 'bourgeois_condbold';
 }
 
 * {
