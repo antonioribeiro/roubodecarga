@@ -68,12 +68,10 @@ section.slider {
   z-index: 9999;
 }
 
-//.slick-prev {
-//  margin-left: -50px;
-//}
-//
-//.slick-next {
-//  margin-left: 50px;
-//}
+.slick-dots li button:before {
+  color: black;
+}
 
-
+.slick-dots li.slick-active button:before {
+  color: white;
+}
