@@ -14,6 +14,12 @@ try {
 } catch (e) {}
 
 /**
+ * Slider Pro
+ */
+
+window.sliderPro = require('slider-pro/dist/js/jquery.sliderPro.min.js');
+
+/**
  * We'll load the axios HTTP library which allows us to easily issue requests
  * to our Laravel back-end. This library automatically handles sending the
  * CSRF token as a header based on the value of the "XSRF" token cookie.

@@ -1,32 +1,41 @@
 <section class="slider">
-    <div class="row">
-        <div class="col-xs-12">
-            <p>@{{ name }}</p>
-            <carousel>
-                <slide>
-                    <img src="http://lorempixel.com/300/400/sports?a=1" alt="">
-                </slide>
+    <div class="slider-pro" id="slider-pro">
+        <div class="sp-slides">
+            <div class="sp-slide">
+                <img class="sp-image" src="http://lorempixel.com/600/800/sports?1" alt="">
+            </div>
 
-                <slide>
-                    <img src="http://lorempixel.com/300/400/sports?a=2" alt="">
-                </slide>
+            <div class="sp-slide">
+                <img class="sp-image" src="http://lorempixel.com/300/400/sports?2" alt="">
+            </div>
 
-                <slide>
-                    <img src="http://lorempixel.com/300/400/sports?a=3" alt="">
-                </slide>
+            <div class="sp-slide">
+                <img class="sp-image" src="http://lorempixel.com/600/800/sports?3" alt="">
+            </div>
 
-                <slide>
-                    <img src="http://lorempixel.com/300/400/sports?a=4" alt="">
-                </slide>
+            <div class="sp-slide">
+                <img class="sp-image" src="http://lorempixel.com/600/800/sports?4" alt="">
+            </div>
 
-                <slide>
-                    <img src="http://lorempixel.com/300/400/sports?a=5" alt="">
-                </slide>
+            <div class="sp-slide">
+                <img class="sp-image" src="http://lorempixel.com/600/800/sports?5" alt="">
+            </div>
 
-                <slide>
-                    <img src="http://lorempixel.com/300/400/sports?a=6" alt="">
-                </slide>
-            </carousel>
+            <div class="sp-slide">
+                <img class="sp-image" src="http://lorempixel.com/600/800/sports?6" alt="">
+            </div>
+
+            <div class="sp-slide">
+                <img class="sp-image" src="http://lorempixel.com/600/800/sports?7" alt="">
+            </div>
+
+            <div class="sp-slide">
+                <img class="sp-image" src="http://lorempixel.com/600/800/sports?8" alt="">
+            </div>
+
+            <div class="sp-slide">
+                <img class="sp-image" src="http://lorempixel.com/600/800/sports?9" alt="">
+            </div>
         </div>
     </div>
 </section>
