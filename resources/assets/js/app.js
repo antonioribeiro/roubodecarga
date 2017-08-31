@@ -17,6 +17,17 @@ window.Vue = require('vue');
 
 Vue.component('example', require('./components/Example.vue'));
 
+import { Carousel, Slide } from 'vue-carousel';
+
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+
+    data: {
+        name: 'Antonio',
+    },
+
+    components: {
+        Carousel,
+        Slide
+    }
 });
