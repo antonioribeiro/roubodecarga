@@ -4,7 +4,7 @@
             <div class="main_videos">
                 <div class="head_title text-center">
                     <h2>Vídeos</h2>
-                    <p class="lead">condimentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+                    <p class="lead">Confira as dicas e depoimentos de quem mais entende do assunto.</p>
                 </div>
 
                 <div class="videos_content">
