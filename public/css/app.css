@@ -11745,7 +11745,7 @@ section.slider h1 {
 }
 
 .slick-slide {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .slick-slide img {
@@ -11762,8 +11762,8 @@ section.slider h1 {
 }
 
 .slick-dotted .slick-current img {
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
   -webkit-box-shadow: 10px 10px 25px 5px #888888;
           box-shadow: 10px 10px 25px 5px #888888;
 }
@@ -11778,14 +11778,6 @@ section.slider h1 {
 
 .slick-arrow {
   z-index: 9999;
-}
-
-.slick-prev {
-  margin-left: -50px;
-}
-
-.slick-next {
-  margin-left: 50px;
 }
 
 section.videos {
