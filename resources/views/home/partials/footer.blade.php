@@ -1,7 +1,12 @@
 <section class="footer">
-    <div class="row">
-        <div class="col-xs-12">
-            <p class="text-center">footer <i class="fa fa-facebook"></i></p>
-        </div>
-    </div>
+   <footer>
+      <div class="container text-center">
+         <div class="row">
+            <div class="col-md-12">
+               <img src="/images/logo-alerj_footer.png">
+               <img src="/images/logo-diskd_footer.png">
+            </div>
+         </div>
+      </div>
+   </footer>
 </section>
