@@ -1,26 +1,32 @@
 section.header {
-  background-color: $bg-dark;
+  background-color: $bg-clear;
 
-  max-height: 20px;
+
 
   p {
-    color: white;
+    color: black;
   }
+
   a {
-    color: red;
-  }
-  .social-icon {
-    background: pink;
-
-
-    a {
-        float:left;
-        font-size:13px;
-        color:#fff;
+    // float:left;
+    font-size:13px;
+    color:#fff;
+    display: inline-block;
+    position: relative;
+    margin: 5px 5px 5px 0 ;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    background: #666666;
 
         i {
-          padding-right:10px;
+          margin: 0;
+          line-height: 25px;
+          text-align: center;
         }
     }
-  }
 }
