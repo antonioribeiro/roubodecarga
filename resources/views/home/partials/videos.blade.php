@@ -8,18 +8,11 @@
                 </div>
 
                 <div class="videos_content">
-                    <div class="col-md-6 col-sm-6 video">
-                      <div class='embed-container'><iframe src='https://www.youtube.com/embed/EYm8dEWug1A' frameborder='0' allowfullscreen></iframe></div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 video">
-                      <div class='embed-container'><iframe src='https://www.youtube.com/embed/EYm8dEWug1A' frameborder='0' allowfullscreen></iframe></div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 video">
-                      <div class='embed-container'><iframe src='https://www.youtube.com/embed/EYm8dEWug1A' frameborder='0' allowfullscreen></iframe></div>
-                    </div>
-                    <div class="col-md-6 col-sm-6 video">
-                      <div class='embed-container'><iframe src='https://www.youtube.com/embed/EYm8dEWug1A' frameborder='0' allowfullscreen></iframe></div>
-                    </div>
+                    @foreach($videos as $video)
+                        <div class="col-md-6 col-sm-6 video">
+                          <div class='embed-container'><iframe src='https://www.youtube.com/embed/{{ $video['code'] }}' frameborder='0' allowfullscreen></iframe></div>
+                        </div>
+                    @endforeach
                 </div>
             </div>
         </div>
