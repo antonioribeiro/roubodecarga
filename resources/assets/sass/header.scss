@@ -1,0 +1,24 @@
+section.header {
+  background-color: black;
+  padding:10px 0;
+  max-height: 20px;
+
+  p {
+    color: green;
+  }
+
+  .header-wrapper .social-icon a{
+      float:left;
+      font-size:13px;
+      color:#fff;
+  }
+  .header-wrapper .social-icon a:hover{
+      color:#82ca9c;
+  }
+  .header-wrapper .social-icon a i{
+      padding-right:10px;
+  }
+
+
+
+}
