@@ -1,6 +1,9 @@
 section.slider {
   background-color: $bg-clear;
   background-image: url('/images/bg-slider.png');
+  min-height: 600px;
+  padding-top: 100px;
+
 
   h1 {
     font-family: 'bourgeois_condbold';

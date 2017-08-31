@@ -11726,6 +11726,8 @@ section.header a i {
 section.slider {
   background-color: white;
   background-image: url("/images/bg-slider.png");
+  min-height: 600px;
+  padding-top: 100px;
 }
 
 section.slider h1 {
