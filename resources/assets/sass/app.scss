@@ -8,6 +8,16 @@
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
-// Variables
-@import "layout";
+// Layout base
+@import "base";
 
+// Sections
+@import "header";
+
+@import "slider";
+
+@import "videos";
+
+@import "slogan";
+
+@import "footer";
