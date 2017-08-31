@@ -11687,6 +11687,10 @@ p {
   color: white;
 }
 
+h2 {
+  font-family: 'bourgeois_condbold';
+}
+
 section.header {
   background-color: white;
 }
@@ -11758,11 +11762,23 @@ section.slider h1 {
 
 section.videos {
   background-color: black;
+  padding: 40px 0 100px 0;
 }
 
 section.videos h2 {
   color: #d50e0e;
   text-transform: uppercase;
+  font-size: 46px;
+}
+
+section.videos .lead {
+  font-family: 'bourgeoisbookcond';
+  color: #9ea6a5;
+  letter-spacing: 0.4px;
+}
+
+section.videos .video {
+  margin-top: 40px;
 }
 
 section.videos .embed-container {
