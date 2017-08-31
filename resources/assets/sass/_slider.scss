@@ -35,3 +35,16 @@ section.slider {
   padding: 10px;
   z-index: 0;
 }
+
+.slick-slide :not(.slick-current) {
+  padding: 10px;
+  z-index: 0;
+}
+
+[data-slick-index="1"] {
+  background-color: magenta;
+}
+
+[data-slick-index="-1"] {
+  background-color: maroon;
+}
