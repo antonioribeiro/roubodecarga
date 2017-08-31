@@ -11413,30 +11413,31 @@ p {
 }
 
 section.header {
-  background-color: black;
-  max-height: 20px;
+  background-color: white;
 }
 
 section.header p {
-  color: white;
+  color: black;
 }
 
 section.header a {
-  color: red;
-}
-
-section.header .social-icon {
-  background: pink;
-}
-
-section.header .social-icon a {
-  float: left;
   font-size: 13px;
   color: #fff;
+  display: inline-block;
+  position: relative;
+  margin: 5px 5px 5px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+  background: #666666;
 }
 
-section.header .social-icon a i {
-  padding-right: 10px;
+section.header a i {
+  margin: 0;
+  line-height: 25px;
+  text-align: center;
 }
 
 section.slider {
@@ -11445,6 +11446,29 @@ section.slider {
 
 section.videos {
   background-color: black;
+}
+
+section.videos h2 {
+  color: #d50e0e;
+  text-transform: uppercase;
+}
+
+section.videos .embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+section.videos .embed-container iframe,
+section.videos .embed-container object,
+section.videos .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 section.slogan {
