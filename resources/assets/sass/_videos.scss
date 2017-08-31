@@ -1,10 +1,21 @@
 section.videos {
   background-color: $bg-dark;
+  padding: 40px 0 100px 0;
 
 
   h2 {
     color: #d50e0e;
     text-transform: uppercase;
+    font-size: 46px;
+  }
+  .lead{
+    font-family: 'bourgeoisbookcond';
+    color: #9ea6a5;
+    letter-spacing: 0.4px;
+  }
+
+  .video {
+    margin-top: 40px;
   }
 
 
