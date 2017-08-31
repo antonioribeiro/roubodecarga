@@ -1,41 +1,31 @@
 <section class="slider">
-    <div class="slider-pro" id="slider-pro">
-        <div class="sp-slides">
-            <div class="sp-slide">
-                <img class="sp-image" src="http://lorempixel.com/600/800/sports?1" alt="">
-            </div>
-
-            <div class="sp-slide">
-                <img class="sp-image" src="http://lorempixel.com/300/400/sports?2" alt="">
-            </div>
-
-            <div class="sp-slide">
-                <img class="sp-image" src="http://lorempixel.com/600/800/sports?3" alt="">
-            </div>
-
-            <div class="sp-slide">
-                <img class="sp-image" src="http://lorempixel.com/600/800/sports?4" alt="">
-            </div>
-
-            <div class="sp-slide">
-                <img class="sp-image" src="http://lorempixel.com/600/800/sports?5" alt="">
-            </div>
-
-            <div class="sp-slide">
-                <img class="sp-image" src="http://lorempixel.com/600/800/sports?6" alt="">
-            </div>
-
-            <div class="sp-slide">
-                <img class="sp-image" src="http://lorempixel.com/600/800/sports?7" alt="">
-            </div>
-
-            <div class="sp-slide">
-                <img class="sp-image" src="http://lorempixel.com/600/800/sports?8" alt="">
-            </div>
-
-            <div class="sp-slide">
-                <img class="sp-image" src="http://lorempixel.com/600/800/sports?9" alt="">
-            </div>
+    <section class="center slick">
+        <div>
+            <img src="http://placehold.it/350x300?text=1">
         </div>
-    </div>
+        <div>
+            <img src="http://placehold.it/350x300?text=2">
+        </div>
+        <div>
+            <img src="http://placehold.it/350x300?text=3">
+        </div>
+        <div>
+            <img src="http://placehold.it/350x300?text=4">
+        </div>
+        <div>
+            <img src="http://placehold.it/350x300?text=5">
+        </div>
+        <div>
+            <img src="http://placehold.it/350x300?text=6">
+        </div>
+        <div>
+            <img src="http://placehold.it/350x300?text=7">
+        </div>
+        <div>
+            <img src="http://placehold.it/350x300?text=8">
+        </div>
+        <div>
+            <img src="http://placehold.it/350x300?text=9">
+        </div>
+    </section>
 </section>

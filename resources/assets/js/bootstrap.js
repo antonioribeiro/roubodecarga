@@ -14,10 +14,10 @@ try {
 } catch (e) {}
 
 /**
- * Slider Pro
+ * Slick Carousel
  */
 
-window.sliderPro = require('slider-pro/dist/js/jquery.sliderPro.min.js');
+window.slick = require('slick-carousel/slick/slick.js');
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests

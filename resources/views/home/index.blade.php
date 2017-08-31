@@ -16,14 +16,12 @@
 
 @section('page-javascript')
     <script type="text/javascript">
-        jQuery(document).ready(function($) {
-            jQuery('#slider-pro').sliderPro({
-                width: 300,
-                height: 300,
-                visibleSize: '100%',
-                forceSize: 'fullWidth',
-                autoSlideSize: true
-            });
+        jQuery(".center").slick({
+            dots: true,
+            infinite: true,
+            centerMode: true,
+            slidesToShow: 3,
+            slidesToScroll: 2
         });
     </script>
 @stop

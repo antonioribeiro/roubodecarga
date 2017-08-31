@@ -1,4 +1,33 @@
 section.slider {
-  background-color: $bg-cement;
+  background-color: $bg-clear;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.slick {
+  width: 70%;
+  margin: 50px auto;
+}
+
+.slick-slide {
+  margin: 10px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+  transform: scale(0.9);
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-dotted .slick-current img {
+  transform: scale(1.5);
+  background-color: yellow;
+  padding: 10px;
+  z-index: 0;
+}
