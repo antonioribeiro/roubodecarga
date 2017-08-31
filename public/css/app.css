@@ -11726,6 +11726,8 @@ section.header a i {
 section.slider {
   background-color: white;
   background-image: url("/images/bg-slider.png");
+  min-height: 600px;
+  padding-top: 100px;
 }
 
 section.slider h1 {
@@ -11758,24 +11760,15 @@ section.slider h1 {
 }
 
 .slick-dotted .slick-current img {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  background-color: yellow;
+  -webkit-transform: scale(2.5);
+          transform: scale(2.5);
   padding: 10px;
-  z-index: 0;
+  z-index: 9999;
 }
 
 .slick-slide :not(.slick-current) {
   padding: 10px;
   z-index: 0;
-}
-
-[data-slick-index="1"] {
-  background-color: magenta;
-}
-
-[data-slick-index="-1"] {
-  background-color: maroon;
 }
 
 section.videos {

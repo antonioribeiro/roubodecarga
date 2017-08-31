@@ -1,6 +1,9 @@
 section.slider {
   background-color: $bg-clear;
   background-image: url('/images/bg-slider.png');
+  min-height: 600px;
+  padding-top: 100px;
+
 
   h1 {
     font-family: 'bourgeois_condbold';
@@ -31,10 +34,10 @@ section.slider {
 }
 
 .slick-dotted .slick-current img {
-  transform: scale(1.5);
-  background-color: yellow;
+  transform: scale(2.5);
+  // background-color: yellow;
   padding: 10px;
-  z-index: 0;
+  z-index: 9999;
 }
 
 .slick-slide :not(.slick-current) {
@@ -43,9 +46,11 @@ section.slider {
 }
 
 [data-slick-index="1"] {
-  background-color: magenta;
+  // background-color: magenta;
+  // margin-left: -40px;
 }
 
 [data-slick-index="-1"] {
-  background-color: maroon;
+  // background-color: maroon;
+  // margin-right: -40px;
 }
