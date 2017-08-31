@@ -17,8 +17,6 @@ window.Vue = require('vue');
 
 Vue.component('example', require('./components/Example.vue'));
 
-import { Carousel, Slide } from 'vue-carousel';
-
 new Vue({
     el: '#app',
 
