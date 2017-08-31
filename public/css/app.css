@@ -11760,7 +11760,18 @@ section.slider h1 {
 
 .slick-prev:before,
 .slick-next:before {
-  color: black;
+  color: white;
+  font-size: 50px;
+}
+
+.slick-prev:before {
+  margin-left: -150px;
+  text-shadow: 4px 4px #636262;
+}
+
+.slick-next:before {
+  margin-left: 55px;
+  text-shadow: 4px 4px #7b7b7b;
 }
 
 .slick-dotted .slick-current img {
