@@ -1,8 +1,6 @@
 section.header {
   background-color: $bg-clear;
 
-
-
   p {
     color: black;
   }
@@ -23,10 +21,10 @@ section.header {
     font-size: 14px;
     background: #666666;
 
-        i {
-          margin: 0;
-          line-height: 25px;
-          text-align: center;
-        }
+    i {
+      margin: 0;
+      line-height: 25px;
+      text-align: center;
     }
+  }
 }
