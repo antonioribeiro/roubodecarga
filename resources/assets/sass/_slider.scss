@@ -11,6 +11,7 @@ section.slider {
 
 * {
   box-sizing: border-box;
+  outline: none;
 }
 
 .slick {
@@ -24,6 +25,11 @@ section.slider {
 
 .slick-slide img {
   width: 100%;
+  outline: none
+}
+
+.slick-list:focus {
+
 }
 
 .slick-list {

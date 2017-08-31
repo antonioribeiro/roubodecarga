@@ -11737,6 +11737,7 @@ section.slider h1 {
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  outline: none;
 }
 
 .slick {
@@ -11750,6 +11751,7 @@ section.slider h1 {
 
 .slick-slide img {
   width: 100%;
+  outline: none;
 }
 
 .slick-list {
