@@ -11408,12 +11408,30 @@ p {
 }
 
 section.header {
-  background-color: white;
+  background-color: black;
   max-height: 20px;
 }
 
 section.header p {
-  color: green;
+  color: white;
+}
+
+section.header a {
+  color: red;
+}
+
+section.header .social-icon {
+  background: pink;
+}
+
+section.header .social-icon a {
+  float: left;
+  font-size: 13px;
+  color: #fff;
+}
+
+section.header .social-icon a i {
+  padding-right: 10px;
 }
 
 section.slider {

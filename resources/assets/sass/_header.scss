@@ -1,9 +1,26 @@
 section.header {
-  background-color: $bg-clear;
+  background-color: $bg-dark;
 
   max-height: 20px;
 
   p {
-    color: green;
+    color: white;
+  }
+  a {
+    color: red;
+  }
+  .social-icon {
+    background: pink;
+
+
+    a {
+        float:left;
+        font-size:13px;
+        color:#fff;
+
+        i {
+          padding-right:10px;
+        }
+    }
   }
 }
