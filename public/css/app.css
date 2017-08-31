@@ -11726,7 +11726,7 @@ section.header a i {
 section.slider {
   background-color: white;
   background-image: url("/images/bg-slider.png");
-  min-height: 600px;
+  min-height: 300px;
   padding-top: 100px;
 }
 
@@ -11741,17 +11741,19 @@ section.slider h1 {
 
 .slick {
   width: 70%;
-  margin: 50px auto;
+  margin: 0 auto;
 }
 
 .slick-slide {
-  margin: 10px 20px;
+  margin-top: 30px;
 }
 
 .slick-slide img {
   width: 100%;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+}
+
+.slick-list {
+  margin: 0 -40px;
 }
 
 .slick-prev:before,
@@ -11760,15 +11762,30 @@ section.slider h1 {
 }
 
 .slick-dotted .slick-current img {
-  -webkit-transform: scale(2.5);
-          transform: scale(2.5);
-  padding: 10px;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-box-shadow: 10px 10px 25px 5px #888888;
+          box-shadow: 10px 10px 25px 5px #888888;
+}
+
+.slick-slide:not(.slick-current) img {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+  -webkit-filter: brightness(70%);
+  -moz-filter: brightness(70%);
+  filter: brightness(70%);
+}
+
+.slick-arrow {
   z-index: 9999;
 }
 
-.slick-slide :not(.slick-current) {
-  padding: 10px;
-  z-index: 0;
+.slick-prev {
+  margin-left: -50px;
+}
+
+.slick-next {
+  margin-left: 50px;
 }
 
 section.videos {

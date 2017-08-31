@@ -1,9 +1,8 @@
 section.slider {
   background-color: $bg-clear;
   background-image: url('/images/bg-slider.png');
-  min-height: 600px;
+  min-height: 300px;
   padding-top: 100px;
-
 
   h1 {
     font-family: 'bourgeois_condbold';
@@ -16,16 +15,19 @@ section.slider {
 
 .slick {
   width: 70%;
-  margin: 50px auto;
+  margin: 0 auto;
 }
 
 .slick-slide {
-  margin: 10px 20px;
+  margin-top: 30px;
 }
 
 .slick-slide img {
   width: 100%;
-  transform: scale(0.9);
+}
+
+.slick-list {
+  margin: 0 -40px;
 }
 
 .slick-prev:before,
@@ -34,23 +36,27 @@ section.slider {
 }
 
 .slick-dotted .slick-current img {
-  transform: scale(2.5);
-  // background-color: yellow;
-  padding: 10px;
+  transform: scale(0.9);
+  box-shadow: 10px 10px 25px 5px #888888;
+}
+
+.slick-slide:not(.slick-current) img {
+  transform: scale(0.7);
+  -webkit-filter:brightness(70%);
+  -moz-filter:brightness(70%);
+  filter:brightness(70%);
+}
+
+.slick-arrow {
   z-index: 9999;
 }
 
-.slick-slide :not(.slick-current) {
-  padding: 10px;
-  z-index: 0;
+.slick-prev {
+  margin-left: -50px;
 }
 
-[data-slick-index="1"] {
-  // background-color: magenta;
-  // margin-left: -40px;
+.slick-next {
+  margin-left: 50px;
 }
 
-[data-slick-index="-1"] {
-  // background-color: maroon;
-  // margin-right: -40px;
-}
+
