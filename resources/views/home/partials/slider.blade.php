@@ -1,5 +1,4 @@
 <section class="slider">
-    <h1>font-family: 'bourgeois_condbold';</h1>
     <section class="center slick">
         <div>
             <img src="http://placehold.it/350x300?text=1">
