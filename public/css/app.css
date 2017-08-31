@@ -11708,18 +11708,18 @@ section.header a {
   color: #fff;
   display: inline-block;
   position: relative;
-  margin: 5px 5px 5px 0;
+  margin: 5px 0;
   border-radius: 50%;
   text-align: center;
-  width: 25px;
-  height: 25px;
-  font-size: 14px;
+  width: 23px;
+  height: 23px;
+  font-size: 12px;
   background: #666666;
 }
 
 section.header a i {
   margin: 0;
-  line-height: 25px;
+  line-height: 24px;
   text-align: center;
 }
 
@@ -11803,6 +11803,7 @@ section.videos .lead {
   font-family: 'bourgeoisbookcond';
   color: #9ea6a5;
   letter-spacing: 0.4px;
+  margin-bottom: 0;
 }
 
 section.videos .video {
@@ -11847,7 +11848,7 @@ section.slogan .lead {
   letter-spacing: 0.4px;
   text-transform: uppercase;
   font-size: 34px;
-  margin-top: -15sepx;
+  margin-top: -15px;
 }
 
 section.footer {
