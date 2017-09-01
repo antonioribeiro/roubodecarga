@@ -1,10 +1,9 @@
 <section class="footer">
    <footer>
-      <div class="container text-center">
-         <div class="row">
+      <div class="container">
+         <div class="row text-center">
             <div class="col-md-12">
-               <img src="/images/logo-alerj-footer.png">
-               <img src="/images/logo-diskd-footer.png">
+               <img class="img-responsive" src="/images/logos_footer.png">
             </div>
          </div>
       </div>
