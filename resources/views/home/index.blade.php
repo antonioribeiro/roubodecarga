@@ -26,6 +26,16 @@
             autoplay: true,
             autoplaySpeed: 4000,
             arrows: true,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 1,
+                        arrows: false,
+                        variableWidth: false,
+                    }
+                },
+            ],
         });
     </script>
 @stop
