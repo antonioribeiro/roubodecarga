@@ -26,6 +26,10 @@
             <script src="http://localhost:35729/livereload.js"></script>
         @endif
 
+        @if(config('app.env') == 'production')
+            @include('partials.google-analytics')
+        @endif
+
         @yield('page-javascript')
     </body>
 </html>
