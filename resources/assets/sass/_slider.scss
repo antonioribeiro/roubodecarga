@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
 section.slider {
   background-color: $bg-clear;
   background-image: url('/images/bg-slider.png');
@@ -7,11 +12,6 @@ section.slider {
   h1 {
     font-family: 'bourgeois_condbold';
   }
-}
-
-* {
-  box-sizing: border-box;
-  outline: none;
 }
 
 .slick {

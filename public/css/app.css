@@ -11723,6 +11723,12 @@ section.header a i {
   text-align: center;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
 section.slider {
   background-color: white;
   background-image: url("/images/bg-slider.png");
@@ -11732,12 +11738,6 @@ section.slider {
 
 section.slider h1 {
   font-family: 'bourgeois_condbold';
-}
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  outline: none;
 }
 
 .slick {
