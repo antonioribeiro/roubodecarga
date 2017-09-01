@@ -14,8 +14,10 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $videos = config('app.show_videos', true) ? Video::all() : [];
+
         return view('home.index')
-            ->with('videos', Video::all())
+            ->with('videos', $videos)
             ->with('slides', Slide::shuffle())
         ;
     }
