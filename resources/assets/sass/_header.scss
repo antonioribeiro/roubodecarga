@@ -11,6 +11,10 @@ section.header {
       top: 1px;
 
       @media screen and (max-width: $break-tablet) {
+        max-width: 200px;
+      }
+
+      @media screen and (max-width: $break-bigphone) {
         max-width: 150px;
       }
     }

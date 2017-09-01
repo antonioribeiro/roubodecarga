@@ -11706,6 +11706,12 @@ section.header .logo-alerj img {
 
 @media screen and (max-width: 1024px) {
   section.header .logo-alerj img {
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  section.header .logo-alerj img {
     max-width: 150px;
   }
 }
