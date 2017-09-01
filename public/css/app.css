@@ -11710,7 +11710,13 @@ section.header .logo-alerj img {
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 375px) {
+  section.header .logo-alerj img {
+    max-width: 180px;
+  }
+}
+
+@media screen and (max-width: 320px) {
   section.header .logo-alerj img {
     max-width: 150px;
   }
@@ -11759,7 +11765,7 @@ section.slider h1 {
 section.slider .slick {
   width: 70%;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 section.slider .slick-slide {
@@ -11864,7 +11870,7 @@ section.slogan {
   height: 180px;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 375px) {
   section.slogan .slogan h2 {
     font-size: 36px;
   }
