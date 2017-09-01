@@ -25,6 +25,7 @@
             variableWidth: true,
             autoplay: true,
             autoplaySpeed: 4000,
+            arrows: false,
         });
     </script>
 @stop

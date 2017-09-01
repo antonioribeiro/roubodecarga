@@ -3,9 +3,9 @@
         <div class="row">
             <div>
                 <div class="col-md-6">
-                  <div class="logo">
-                    <img src="/images/logo-alerj_comissaoseguranca.png">
-                  </div>
+                    <div class="logo">
+                        <img src="/images/logo-alerj_comissaoseguranca.png">
+                    </div>
                 </div>
 
                 <div class="col-md-6 text-right">
