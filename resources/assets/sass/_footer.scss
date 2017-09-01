@@ -2,9 +2,12 @@ section.footer {
   background-color: $bg-dark;
 
   footer{
-    padding: 40px 0 40px 0;  
+    padding: 40px 0 40px 0;
   }
 
+  .img-responsive {
+    margin: 0 auto;
+  }
 
   p {
     color: red;

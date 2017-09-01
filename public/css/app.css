@@ -11894,6 +11894,10 @@ section.footer footer {
   padding: 40px 0 40px 0;
 }
 
+section.footer .img-responsive {
+  margin: 0 auto;
+}
+
 section.footer p {
   color: red;
 }
