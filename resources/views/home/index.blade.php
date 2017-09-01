@@ -23,8 +23,8 @@
             slidesToShow: 3,
             slidesToScroll: 1,
             variableWidth: true,
-            //autoplay: true,
-            //autoplaySpeed: 2000,
+            autoplay: true,
+            autoplaySpeed: 4000,
         });
     </script>
 @stop

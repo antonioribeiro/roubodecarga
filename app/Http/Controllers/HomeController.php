@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Data\Models\Slide;
 use App\Data\Models\Video;
 
 class HomeController extends Controller
@@ -13,6 +14,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home.index')->with('videos', Video::all());
+        return view('home.index')
+            ->with('videos', Video::all())
+            ->with('slides', Slide::shuffle())
+        ;
     }
 }
