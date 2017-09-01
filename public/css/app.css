@@ -11699,8 +11699,15 @@ section.header p {
   color: black;
 }
 
-section.header .logo {
+section.header .logo-alerj img {
   position: absolute;
+  top: 1px;
+}
+
+@media screen and (max-width: 1024px) {
+  section.header .logo-alerj img {
+    max-width: 150px;
+  }
 }
 
 section.header a {
@@ -11723,65 +11730,69 @@ section.header a i {
   text-align: center;
 }
 
-* {
+section.slider .background {
+  background-color: white;
+  background-image: url("/images/bg-slider.png");
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   outline: none;
+  padding-top: 20px;
+  min-height: 400px;
 }
 
-section.slider {
-  background-color: white;
-  background-image: url("/images/bg-slider.png");
-  min-height: 300px;
-  padding-top: 20px;
+@media screen and (max-width: 1024px) {
+  section.slider .logo-disquedenuncia img {
+    max-width: 90px;
+  }
 }
 
 section.slider h1 {
   font-family: 'bourgeois_condbold';
 }
 
-.slick {
+section.slider .slick {
   width: 70%;
   margin: 0 auto;
+  margin-top: 20px;
 }
 
-.slick-slide {
+section.slider .slick-slide {
   margin-top: 0px;
 }
 
-.slick-slide img {
+section.slider .slick-slide img {
   width: 100%;
   outline: none;
 }
 
-.slick-list {
+section.slider .slick-list {
   margin: 0 -40px;
 }
 
-.slick-prev:before,
-.slick-next:before {
+section.slider .slick-prev:before,
+section.slider .slick-next:before {
   color: white;
   font-size: 50px;
 }
 
-.slick-prev:before {
+section.slider .slick-prev:before {
   margin-left: -150px;
   text-shadow: 4px 4px #636262;
 }
 
-.slick-next:before {
+section.slider .slick-next:before {
   margin-left: 55px;
   text-shadow: 4px 4px #7b7b7b;
 }
 
-.slick-dotted .slick-current img {
+section.slider .slick-dotted .slick-current img {
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
   -webkit-box-shadow: 10px 10px 25px 5px #888888;
           box-shadow: 10px 10px 25px 5px #888888;
 }
 
-.slick-slide:not(.slick-current) img {
+section.slider .slick-slide:not(.slick-current) img {
   -webkit-transform: scale(0.7);
           transform: scale(0.7);
   -webkit-filter: brightness(70%);
@@ -11789,15 +11800,15 @@ section.slider h1 {
   filter: brightness(70%);
 }
 
-.slick-arrow {
+section.slider .slick-arrow {
   z-index: 9999;
 }
 
-.slick-dots li button:before {
+section.slider .slick-dots li button:before {
   color: black;
 }
 
-.slick-dots li.slick-active button:before {
+section.slider .slick-dots li.slick-active button:before {
   color: white;
 }
 
@@ -11845,6 +11856,17 @@ section.slogan {
   background-color: gray;
   background-image: url("/images/bg-slogan.jpg");
   height: 180px;
+}
+
+@media screen and (max-width: 620px) {
+  section.slogan .slogan h2 {
+    font-size: 36px;
+  }
+
+  section.slogan .slogan .lead {
+    font-size: 18px;
+    margin-top: 0px;
+  }
 }
 
 section.slogan h2 {

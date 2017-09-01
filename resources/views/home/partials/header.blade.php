@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="logo">
-                    <img src="/images/logo-alerj_comissaoseguranca.png">
+                <div class="logo-alerj">
+                    <img src="/images/logo-alerj-comissaoseguranca.png" width="">
                 </div>
             </div>
 

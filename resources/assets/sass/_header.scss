@@ -5,8 +5,15 @@ section.header {
     color: black;
   }
 
-  .logo {
-    position: absolute;
+  .logo-alerj {
+    img {
+      position: absolute;
+      top: 1px;
+
+      @media screen and (max-width: $break-tablet) {
+        max-width: 150px;
+      }
+    }
   }
 
   a {

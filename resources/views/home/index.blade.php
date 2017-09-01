@@ -2,15 +2,19 @@
 
 @section('content')
     <div class="container-full">
-        @include('home.partials.header')
+        <div class="row">
+            <div class="col-xs-12">
+                @include('home.partials.header')
 
-        @include('home.partials.slider')
+                @include('home.partials.slider')
 
-        @include('home.partials.videos')
+                @include('home.partials.videos')
 
-        @include('home.partials.slogan')
+                @include('home.partials.slogan')
 
-        @include('home.partials.footer')
+                @include('home.partials.footer')
+            </div>
+        </div>
     </div>
 @stop
 
@@ -29,6 +33,14 @@
             responsive: [
                 {
                     breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 1,
+                        arrows: false,
+                        variableWidth: false,
+                    }
+                },
+                {
+                    breakpoint: 900,
                     settings: {
                         slidesToShow: 1,
                         arrows: false,

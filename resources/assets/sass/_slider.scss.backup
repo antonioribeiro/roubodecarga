@@ -1,19 +1,12 @@
 section.slider {
+  min-height: 300px;
+  padding-top: 20px;
+
   .background {
     background-color: $bg-clear;
     background-image: url('/images/bg-slider.png');
     box-sizing: border-box;
     outline: none;
-    padding-top: 20px;
-    min-height: 400px;
-  }
-
-  .logo-disquedenuncia {
-    img {
-      @media screen and (max-width: $break-tablet) {
-        max-width: 90px;
-      }
-    }
   }
 
   h1 {
@@ -23,7 +16,6 @@ section.slider {
   .slick {
     width: 70%;
     margin: 0 auto;
-    margin-top: 20px;
   }
 
   .slick-slide {
