@@ -46,10 +46,6 @@ class Slide
             'filename' => 'slider_010.jpg',
         ],
 
-        [
-            'filename' => 'slider_001.jpg',
-        ],
-
     ];
 
     public static function all()
