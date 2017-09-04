@@ -8,6 +8,8 @@
 
                 @include('home.partials.slider')
 
+                @include('home.partials.about')
+
                 @include('home.partials.videos')
 
                 @include('home.partials.slogan')

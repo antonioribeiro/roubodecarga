@@ -11764,8 +11764,7 @@ section.slider h1 {
 
 section.slider .slick {
   width: 70%;
-  margin: 0 auto;
-  margin-top: 40px;
+  margin: 40px auto;
 }
 
 section.slider .slick-slide {
@@ -11822,6 +11821,36 @@ section.slider .slick-dots li button:before {
 
 section.slider .slick-dots li.slick-active button:before {
   color: white;
+}
+
+section.about {
+  background-color: white;
+  min-height: 180px;
+}
+
+@media screen and (max-width: 375px) {
+  section.about .about h2 {
+    font-size: 36px;
+  }
+}
+
+section.about .accordion {
+  margin-bottom: 40px;
+}
+
+section.about .lead {
+  font-family: 'bourgeoisbookcond';
+  color: #373737;
+  letter-spacing: 0.4px;
+  margin-bottom: 0;
+}
+
+section.about h2 {
+  color: #d50e0e;
+  text-transform: uppercase;
+  font-size: 46px;
+  margin-top: 50px;
+  margin-bottom: 0;
 }
 
 section.videos {

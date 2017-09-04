@@ -1,0 +1,31 @@
+section.about {
+  background-color: $bg-clear;
+  min-height: 180px;
+
+  .about {
+    @media screen and (max-width: $break-bigphone) {
+      h2 {
+        font-size: 36px;
+      }
+    }
+  }
+
+  .accordion {
+    margin-bottom: 40px;
+  }
+
+  .lead{
+    font-family: 'bourgeoisbookcond';
+    color: #373737;
+    letter-spacing: 0.4px;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    color: #d50e0e;
+    text-transform: uppercase;
+    font-size: 46px;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+}
