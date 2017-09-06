@@ -97,6 +97,14 @@ class Video
             'provider' => 'youtube',
         ],
 
+
+        [
+            'title' => 'Campanha Contra Roubo de Cargas - deputado Carlos Osorio',
+            'speaker' => 'Deputado Carlos Osorio',
+            'code' => '2QiNof8aMWw',
+            'provider' => 'youtube',
+        ],
+
     ];
 
     public static function all()
