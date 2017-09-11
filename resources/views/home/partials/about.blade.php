@@ -13,7 +13,7 @@
                   <div class="panel-body lead">
                       <h3>Alerj lança campanha #Não Compre Violência</h3>
 
-                      <p>Ideia é conscientizar cidadão: quem compra produtos roubados vira cúmplice do crime</p>
+                      <p>Ideia é conscientizar cidadão: quem compra produtos roubados vira cúmplice do crime.</p>
 
                       <p>A Assembleia Legislativa do Rio de Janeiro (Alerj) lançou, em parceria com o Disque Denúncia, a campanha #NãoCompreViolência. O objetivo da campanha, feita a pedido da Comissão de Segurança Pública da Casa, é conscientizar a população fluminense sobre o papel de cada cidadão no combate a um crime que virou uma verdadeira epidemia no estado: o roubo de cargas.</p>
 
@@ -22,11 +22,13 @@
                       <p>A campanha, cujo slogan é “Mercadoria Roubada: Quem Compra, Faz Vítimas”, será aberta à participação das entidades que compõem o Fórum Estratégico de Desenvolvimento do Estado da Alerj, como Firjan, Fecomércio, Associação Comercial e Fetranscargas, entre outros, além de agentes públicos e privados que queiram participar. Todos poderão assinar e usar as peças produzidas pela Alerj na sua comunicação, canais institucionais e na sua propaganda.</p>
 
                       <h3>Consequências</h3>
+
                       <p>O roubo de cargas contribui para agravar a crise econômica fluminense, já que aumenta o preço dos produtos e pode levar ao desabastecimento, causando efeito cascata em diversos setores: diminui a arrecadação de impostos para investimentos públicos em serviços como saúde, segurança e educação; e aumenta a fila do desemprego.</p>
 
                       <p>Os danos não se resumem ao cenário econômico. O crime financia o crime organizado e o tráfico de drogas e armas.</p>
 
                       <h3>Ações</h3>
+
                       <p>A campanha #NãoCompreViolência prevê inserções online e offline, ações de impacto nas ruas e o apoio de influenciadores digitais. Lojistas serão provocados a informar nos seus estabelecimentos que o roubo de cargas encarece o preço dos produtos, causa desabastecimento e alimenta o crime.</p>
 
                       <p>Outra ideia é que grandes magazines e mercados promovam, em uma data emblemática (como o Dia do Comércio, comemorado em 30 de outubro), um desconto correspondente ao custo do adicional que roubo de cargas provoca nas mercadorias ofertadas.</p>
