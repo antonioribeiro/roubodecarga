@@ -11836,6 +11836,7 @@ section.about {
 
 section.about p {
   color: #373737;
+  text-align: left !important;
 }
 
 section.about .accordion {
@@ -11848,12 +11849,17 @@ section.about .lead {
   margin-bottom: 0;
 }
 
-section.about h2 {
+section.about h2,
+section.about h3 {
   color: #d50e0e;
   text-transform: uppercase;
   font-size: 46px;
   margin-top: 50px;
   margin-bottom: 0;
+}
+
+section.about h3 {
+  font-size: 35px;
 }
 
 section.videos {

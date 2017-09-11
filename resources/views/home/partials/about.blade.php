@@ -1,9 +1,9 @@
 <section class="about">
   <div class="container">
       <div class="row">
-          <div class="accordion col-xs-12 text-center">
+          <div class="accordion col-xs-12">
               <div role="tab" id="headingOne">
-                  <h4 class="title">
+                  <h4 class="title text-center">
                       <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                           <h2>ENTENDA A CAMPANHA</h2>
                       </a>
@@ -11,7 +11,7 @@
               </div>
               <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
                   <div class="panel-body lead">
-                      <p>Alerj lança campanha #Não Compre Violência</p>
+                      <h3>Alerj lança campanha #Não Compre Violência</h3>
 
                       <p>Ideia é conscientizar cidadão: quem compra produtos roubados vira cúmplice do crime</p>
 
