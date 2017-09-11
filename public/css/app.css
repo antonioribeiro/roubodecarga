@@ -11834,13 +11834,16 @@ section.about {
   }
 }
 
+section.about p {
+  color: #373737;
+}
+
 section.about .accordion {
   margin-bottom: 40px;
 }
 
 section.about .lead {
   font-family: 'bourgeoisbookcond';
-  color: #373737;
   letter-spacing: 0.4px;
   margin-bottom: 0;
 }

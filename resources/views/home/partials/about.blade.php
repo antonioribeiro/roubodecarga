@@ -11,7 +11,15 @@
               </div>
               <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
                   <div class="panel-body lead">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      <p>Alerj lança campanha #Não Compre Violência</p>
+
+                      <p>Ideia é conscientizar cidadão: quem compra produtos roubados vira cúmplice do crime</p>
+
+                      <p>A Assembleia Legislativa do Rio de Janeiro (Alerj) está lançando, em parceria com o Disque Denúncia, a campanha #NãoCompreViolência. O objetivo da campanha, feita a pedido da Comissão de Segurança Pública da Casa, é conscientizar a população fluminense sobre o papel de cada cidadão no combate a um crime que virou uma verdadeira epidemia no estado: o roubo de cargas.</p>
+
+                      <p>A Alerj acredita que todos os esforços públicos e privados feitos para combater essa prática terão mais eficácia quando as pessoas compreenderem que, ao comprarem uma mercadoria roubada achando que estão fazendo um grande negócio (o famoso “me dei bem”), elas estão praticando um crime, previsto no Código Penal (art. 180), com pena de um a quatro anos de prisão, e também alimentando a violência da qual todos nós somos vítimas.</p>
+
+                      <p>A campanha, cujo slogan é “Mercadoria Roubada: Quem Compra, Faz Vítimas”, será aberta à participação das entidades que compõem o Fórum Estratégico de Desenvolvimento do Estado da Alerj, como Firjan, Fecomércio, Associação Comercial e Fetranscargas, entre outros, além de agentes públicos e privados que queiram participar. Todos poderão assinar e usar as peças produzidas pela Alerj na sua comunicação, canais institucionais e na sua propaganda.</p>
                   </div>
               </div>
           </div>
