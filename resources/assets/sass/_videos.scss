@@ -2,15 +2,15 @@ section.videos {
   background-color: $bg-dark;
   padding: 40px 0 100px 0;
 
-
   h2 {
-    color: #d50e0e;
+    color: $color-red;
     text-transform: uppercase;
     font-size: 46px;
   }
+
   .lead{
     font-family: 'bourgeoisbookcond';
-    color: #9ea6a5;
+    color: $color-light-gray-level-5;
     letter-spacing: 0.4px;
     margin-bottom: 0;
   }
@@ -18,7 +18,6 @@ section.videos {
   .video {
     margin-top: 40px;
   }
-
 
   .embed-container {
     position: relative;
@@ -28,6 +27,7 @@ section.videos {
     hidden;
     max-width: 100%;
   }
+
   .embed-container iframe, .embed-container object, .embed-container embed {
     position: absolute;
     top: 0;

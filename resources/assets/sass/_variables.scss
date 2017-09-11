@@ -1,8 +1,20 @@
+// Colors
+$color-white: #ffffff;
+$color-black: #000000;
+$color-red: #d50e0e;
+$color-gray: #373737;
+$color-dark-gray: #666666;
+$color-light-gray-level-1: #808080;
+$color-light-gray-level-2: #636262;
+$color-light-gray-level-3: #7b7b7b;
+$color-light-gray-level-4: #888888;
+$color-light-gray-level-5: ##9ea6a5;
+$color-green: #82ca9c;
 
 // Body
-$bg-clear: white;
-$bg-dark: black;
-$bg-cement: gray;
+$bg-clear: $color-white;
+$bg-dark: $color-black;
+$bg-cement: $color-light-gray-level-1;
 
 // Breakpoints
 $break-desktop: 1920px;

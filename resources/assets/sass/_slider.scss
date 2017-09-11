@@ -50,17 +50,17 @@ section.slider {
 
   .slick-prev:before {
     margin-left: -150px;
-    text-shadow: 4px 4px #636262;
+    text-shadow: 4px 4px $color-light-gray-level-2;
   }
 
   .slick-next:before {
     margin-left: 55px;
-    text-shadow: 4px 4px #7b7b7b;
+    text-shadow: 4px 4px $color-light-gray-level-3;
   }
 
   .slick-dotted .slick-current img {
     transform: scale(0.95);
-    box-shadow: 10px 10px 25px 5px #888888;
+    box-shadow: 10px 10px 25px 5px $color-light-gray-level-4;
   }
 
   .slick-slide:not(.slick-current) img {
@@ -75,11 +75,11 @@ section.slider {
   }
 
   .slick-dots li button:before {
-    color: black;
+    color: $color-white;
   }
 
   .slick-dots li.slick-active button:before {
-    color: white;
+    color: $color-white;
   }
 }
 

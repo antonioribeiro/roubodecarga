@@ -17,7 +17,7 @@ section.slogan {
   }
 
   h2 {
-    color: #d50e0e;
+    color: $color-red;
     text-transform: uppercase;
     font-size: 46px;
     margin-top: 50px;
@@ -26,7 +26,7 @@ section.slogan {
 
   .lead {
     font-family: 'bourgeois_condbold';
-    color: #373737;
+    color: $color-gray;
     letter-spacing: 0.4px;
     text-transform: uppercase;
     font-size: 34px;

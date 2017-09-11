@@ -11692,7 +11692,7 @@ h2 {
 }
 
 section.header {
-  background-color: white;
+  background-color: #ffffff;
 }
 
 section.header p {
@@ -11724,7 +11724,7 @@ section.header .logo-alerj img {
 
 section.header a {
   font-size: 13px;
-  color: #fff;
+  color: #ffffff;
   display: inline-block;
   position: relative;
   margin: 5px 0;
@@ -11743,7 +11743,7 @@ section.header a i {
 }
 
 section.slider .background {
-  background-color: white;
+  background-color: #ffffff;
   background-image: url("/images/bg-slider.png");
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -11816,15 +11816,15 @@ section.slider .slick-arrow {
 }
 
 section.slider .slick-dots li button:before {
-  color: black;
+  color: #ffffff;
 }
 
 section.slider .slick-dots li.slick-active button:before {
-  color: white;
+  color: #ffffff;
 }
 
 section.about {
-  background-color: white;
+  background-color: #ffffff;
   min-height: 180px;
 }
 
@@ -11862,8 +11862,13 @@ section.about h3 {
   font-size: 35px;
 }
 
+section.about strong {
+  color: #d50e0e;
+  text-align: left !important;
+}
+
 section.videos {
-  background-color: black;
+  background-color: #000000;
   padding: 40px 0 100px 0;
 }
 
@@ -11903,7 +11908,7 @@ section.videos .embed-container embed {
 }
 
 section.slogan {
-  background-color: gray;
+  background-color: #808080;
   background-image: url("/images/bg-slogan.jpg");
   height: 180px;
 }
@@ -11937,7 +11942,7 @@ section.slogan .lead {
 }
 
 section.footer {
-  background-color: black;
+  background-color: #000000;
 }
 
 section.footer footer {

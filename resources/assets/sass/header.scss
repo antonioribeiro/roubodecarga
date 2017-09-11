@@ -8,13 +8,13 @@ section.header {
   }
 
   .header-wrapper .social-icon a{
-    float:left;
-    font-size:13px;
-    color:#fff;
+    float: left;
+    font-size: 13px;
+    color: $color-white;
   }
 
   .header-wrapper .social-icon a:hover{
-    color:#82ca9c;
+    color: $color-green;
   }
 
   .header-wrapper .social-icon a i{

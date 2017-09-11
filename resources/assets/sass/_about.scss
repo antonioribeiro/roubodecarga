@@ -11,7 +11,7 @@ section.about {
   }
 
   p {
-    color: #373737;
+    color: $color-gray;
     text-align: left !important;
   }
 
@@ -26,7 +26,7 @@ section.about {
   }
 
   h2, h3 {
-    color: #d50e0e;
+    color: $color-red;
     text-transform: uppercase;
     font-size: 46px;
     margin-top: 50px;
@@ -35,5 +35,10 @@ section.about {
 
   h3 {
     font-size: 35px;
+  }
+
+  strong {
+    color: $color-red;
+    text-align: left !important;
   }
 }

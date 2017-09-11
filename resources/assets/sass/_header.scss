@@ -26,8 +26,8 @@ section.header {
 
   a {
     // float:left;
-    font-size:13px;
-    color:#fff;
+    font-size: 13px;
+    color: $color-white;
     display: inline-block;
     position: relative;
     margin: 5px 0 ;
@@ -38,8 +38,7 @@ section.header {
     width: 23px;
     height: 23px;
     font-size: 17px;
-    background: #666666;
-
+    background: $color-dark-gray;
 
     i {
       margin: 0;
