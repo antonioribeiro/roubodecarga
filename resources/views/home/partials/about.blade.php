@@ -11,7 +11,7 @@
               </div>
               <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
                   <div class="panel-body lead">
-                      <h3>Alerj lança campanha #Não Compre Violência</h3>
+                      <h3>Alerj lança campanha <strong>#NãoCompreViolência</strong></h3>
 
                       <p>Ideia é conscientizar cidadão: quem compra produtos roubados vira cúmplice do crime.</p>
 
