@@ -19,7 +19,7 @@
 
                       <p>A Alerj acredita que todos os esforços públicos e privados feitos para combater essa prática terão mais eficácia quando as pessoas compreenderem que, ao comprarem uma mercadoria roubada achando que estão fazendo um grande negócio, estão praticando um crime, previsto no Código Penal (art. 180), com pena de um a quatro anos de prisão, além de alimentar a violência.</p>
 
-                      <p>A campanha, cujo slogan é “Mercadoria Roubada: Quem Compra, Faz Vítimas”, será aberta à participação das entidades que compõem o Fórum Estratégico de Desenvolvimento do Estado da Alerj, como Firjan, Fecomércio, Associação Comercial e Fetranscargas, entre outros, além de agentes públicos e privados que queiram participar. Todos poderão assinar e usar as peças produzidas pela Alerj na sua comunicação, canais institucionais e na sua propaganda.</p>
+                      <p>A campanha, cujo slogan é “Mercadoria Roubada: Quem Compra, Faz Vítimas”, será aberta à participação das entidades que compõem o Fórum Estratégico de Desenvolvimento do Estado da Alerj, como Firjan, Fecomércio, Associação Comercial e Fetranscarga, entre outros, além de agentes públicos e privados que queiram participar. Todos poderão assinar e usar as peças produzidas pela Alerj na sua comunicação, canais institucionais e na sua propaganda.</p>
 
                       <h3>Consequências</h3>
 
