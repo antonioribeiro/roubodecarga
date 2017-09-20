@@ -105,6 +105,21 @@ class Video
             'provider' => 'youtube',
         ],
 
+
+        [
+            'title' => 'Campanha Contra Roubo de Cargas - Marinilza Bruno de Carvalho - diretora de Inovação UERJ',
+            'speaker' => 'Marinilza Bruno de Carvalho',
+            'code' => 'iiljr4EAOm0',
+            'provider' => 'youtube',
+        ],
+
+        [
+            'title' => 'Campanha Contra Roubo de Cargas - Aldo Gonçalves - presidente Sindilojas e CDL Rio',
+            'speaker' => 'Aldo Gonçalves',
+            'code' => 'qCTk6tksb-E',
+            'provider' => 'youtube',
+        ],
+
     ];
 
     public static function all()
