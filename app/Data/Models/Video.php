@@ -120,6 +120,13 @@ class Video
             'provider' => 'youtube',
         ],
 
+        [
+            'title' => 'Campanha Contra Roubo de Cargas - Arnaldo Santos Júnior - presidente Sescon',
+            'speaker' => 'Arnaldo Santos Júnior',
+            'code' => 'Uz612wMD454',
+            'provider' => 'youtube',
+        ],
+
     ];
 
     public static function all()
