@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ app()->getLocale() }}">
     <head>
         <meta charset="utf-8">
@@ -8,11 +8,12 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <title>{{ config('app.name', 'ALERJ') }}</title>
 
         <!-- Styles -->
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     </head>
+
     <body>
         <div id="app">
             @yield('content')
@@ -20,5 +21,15 @@
 
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}"></script>
+
+        @if(config('app.env') == 'local')
+            <script src="http://localhost:35729/livereload.js"></script>
+        @endif
+
+        @if(config('app.env') == 'production')
+            @include('partials.google-analytics')
+        @endif
+
+        @yield('page-javascript')
     </body>
 </html>

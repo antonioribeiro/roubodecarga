@@ -10,6 +10,8 @@ return [
         'enabled' => env('APP_LOGIN_SYSTEM_ENABLED', false),
     ],
 
+    'show_videos' => env('SHOW_VIDEOS', true),
+
     'debug' => env('APP_DEBUG', false),
 
     'url' => env('APP_URL', 'http://localhost'),

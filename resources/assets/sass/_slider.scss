@@ -1,0 +1,85 @@
+section.slider {
+  .background {
+    background-color: $bg-clear;
+    background-image: url('/images/bg-slider.png');
+    box-sizing: border-box;
+    outline: none;
+    padding-top: 20px;
+    min-height: 400px;
+  }
+
+  .logo-disquedenuncia {
+    img {
+      @media screen and (max-width: $break-tablet) {
+        max-width: 90px;
+      }
+    }
+  }
+
+  h1 {
+    font-family: 'bourgeois_condbold';
+  }
+
+  .slick {
+    width: 70%;
+    margin: 40px auto;
+  }
+
+  .slick-slide {
+    margin-top: 0px;
+  }
+
+  .slick-slide img {
+    width: 100%;
+    outline: none
+  }
+
+  .slick-list:focus {
+
+  }
+
+  .slick-list {
+    margin: 0 -40px;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: white;
+    font-size: 50px;
+  }
+
+  .slick-prev:before {
+    margin-left: -150px;
+    text-shadow: 4px 4px $color-light-gray-level-2;
+  }
+
+  .slick-next:before {
+    margin-left: 55px;
+    text-shadow: 4px 4px $color-light-gray-level-3;
+  }
+
+  .slick-dotted .slick-current img {
+    transform: scale(0.95);
+    box-shadow: 10px 10px 25px 5px $color-light-gray-level-4;
+  }
+
+  .slick-slide:not(.slick-current) img {
+    transform: scale(0.7);
+    -webkit-filter:brightness(70%);
+    -moz-filter:brightness(70%);
+    filter:brightness(70%);
+  }
+
+  .slick-arrow {
+    z-index: 9999;
+  }
+
+  .slick-dots li button:before {
+    color: $color-white;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: $color-white;
+  }
+}
+

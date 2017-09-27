@@ -1,6 +1,7 @@
 
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url("/fonts/app/stylesheet.css");
 
 // Variables
 @import "variables";
@@ -8,6 +9,25 @@
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
-// Variables
-@import "layout";
+// Bootstrap
+@import "~font-awesome/scss/font-awesome.scss";
 
+// Slick Carousel
+@import "~slick-carousel/slick/slick.scss";
+@import "~slick-carousel/slick/slick-theme.scss";
+
+// Layout base
+@import "base";
+
+// Sections
+@import "header";
+
+@import "slider";
+
+@import "about";
+
+@import "videos";
+
+@import "slogan";
+
+@import "footer";

@@ -1,0 +1,49 @@
+section.header {
+  background-color: $bg-clear;
+
+  p {
+    color: black;
+  }
+
+  .logo-alerj {
+    img {
+      position: absolute;
+      top: 1px;
+
+      @media screen and (max-width: $break-tablet) {
+        max-width: 200px;
+      }
+
+      @media screen and (max-width: $break-bigphone) {
+        max-width: 180px;
+      }
+
+      @media screen and (max-width: $break-smallphone) {
+        max-width: 150px;
+      }
+    }
+  }
+
+  a {
+    // float:left;
+    font-size: 13px;
+    color: $color-white;
+    display: inline-block;
+    position: relative;
+    margin: 5px 0 ;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 23px;
+    height: 23px;
+    font-size: 17px;
+    background: $color-dark-gray;
+
+    i {
+      margin: 0;
+      line-height: 24px;
+      text-align: center;
+    }
+  }
+}

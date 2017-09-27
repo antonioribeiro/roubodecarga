@@ -1,0 +1,35 @@
+section.slogan {
+  background-color: $bg-cement;
+  background-image: url('/images/bg-slogan.jpg');
+  height: 180px;
+
+  .slogan {
+    @media screen and (max-width: $break-bigphone) {
+      h2 {
+        font-size: 36px;
+      }
+
+      .lead {
+        font-size: 18px;
+        margin-top: 0px;
+      }
+    }
+  }
+
+  h2 {
+    color: $color-red;
+    text-transform: uppercase;
+    font-size: 46px;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .lead {
+    font-family: 'bourgeois_condbold';
+    color: $color-gray;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    font-size: 34px;
+    margin-top: -15px;
+  }
+}

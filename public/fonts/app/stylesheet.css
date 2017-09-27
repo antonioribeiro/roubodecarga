@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'brussnormal_regular';
+    src: url('bruss-webfont.woff2') format('woff2'),
+         url('bruss-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bourgeois_bookcondregular';
+    src: url('bourgeois-bookcond-webfont.woff2') format('woff2'),
+         url('bourgeois-bookcond-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bourgeoisbookcond';
+    src: url('bourgeois-bookcond-webfont.woff2') format('woff2'),
+         url('bourgeois-bookcond-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bourgeois_condbold';
+    src: url('bourgeois-boldcond-webfont.woff2') format('woff2'),
+         url('bourgeois-boldcond-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
