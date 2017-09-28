@@ -127,6 +127,13 @@ class Video
             'provider' => 'youtube',
         ],
 
+        [
+            'title' => 'Campanha Contra Roubo de Cargas - Vitória Maria da Silva - pres. CRC - RJ',
+            'speaker' => 'Vitória Maria da Silva',
+            'code' => 'VzhBbT72I74',
+            'provider' => 'youtube',
+        ],
+
     ];
 
     public static function all()
