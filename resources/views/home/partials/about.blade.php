@@ -5,7 +5,7 @@
               <div role="tab" id="headingOne">
                   <h4 class="title text-center">
                       <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          <h2>ENTENDA A CAMPANHA</h2>
+                          <h2>ENTENDA O MOVIMENTO</h2>
                       </a>
                   </h4>
               </div>
