@@ -1,5 +1,7 @@
 # #NãoCompreViolência
 
+## https://naocompreviolencia.com/
+
 ## Características da aplicação
 
 - Git
@@ -12,7 +14,8 @@
 #### Guia genérico de uma aplicação desenvolvida em PHP pelo Projetos Especiais
 
 - Clonar o repositório
-- Configurar o domínio para apontar para a pasta-do-site/public
+- Configurar servidor web para apontar para a pasta-do-site/public
+- Instalar certificado SSL
 - Criar um banco de dados (se necessário)
 - Entrar na pasta do site
 - Copiar o arquivo .env.example para .env
