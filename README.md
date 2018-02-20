@@ -15,7 +15,7 @@
 
 - Clonar o repositório
 - Configurar servidor web para apontar para a <pasta-aonde-o-site-foi-instalado>/public
-- Instalar certificado SSL
+- Instalar certificado SSL (precisamos que a página seja acessível **via https apenas**)
 - Criar um banco de dados (se necessário)
 - Entrar na pasta do site
 - Copiar o arquivo .env.example para .env
