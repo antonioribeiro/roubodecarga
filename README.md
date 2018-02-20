@@ -14,10 +14,10 @@
 #### Guia genérico de uma aplicação desenvolvida em PHP pelo Projetos Especiais
 
 - Clonar o repositório
-- Configurar servidor web para apontar para a <pasta-aonde-o-site-foi-instalado>/public
+- Configurar servidor web para apontar para a **`<pasta-aonde-o-site-foi-instalado>`/public**
 - Instalar certificado SSL (precisamos que a página seja acessível **via https apenas**)
 - Criar o banco do dados
-- Entrar na <pasta-aonde-o-site-foi-instalado>
+- Entrar na `<pasta-aonde-o-site-foi-instalado>`
 - Copiar o arquivo `.env.example` para `.env`
 - Editar o arquivo `.env` e configurar todos dados do sistema
 - Ainda no arquivo `.env`, alterar a variável `APP_ENV` para o ambiente correto (testing, staging, production)
@@ -29,10 +29,10 @@
 
 ### Atualizando a aplicação
 
-- Entrar na pasta do site
+- Entrar na `<pasta-aonde-o-site-foi-instalado>`
 - Baixar as atualizações de código fonte usando Git (git pull ou git fetch + git merge, isso depende de como operador prefere trabalhar com Git)
 - Executar o comando `composer install` para instalar todas as dependências (atualizadas)
-- **Caso a aplicação possua banco de dados**, executar o comando `php artisan migrate`
+- Executar o comando `php artisan migrate` para atualizar o banco de dados
 
 #### Passos extras específicos desta aplicação
 
