@@ -8,7 +8,7 @@
 - [PHP 5.6 ou superior](http://php.net/)
 - [Composer](https://getcomposer.org/)
 - [Redis](https://redis.io/topics/quickstart)
-- Não possui banco de dados
+- **Ignorar todos os passos relacionados a banco de dados** pois a aplicação não possui banco
 
 ### Instalação 
 #### Guia genérico de uma aplicação desenvolvida em PHP pelo Projetos Especiais
@@ -16,13 +16,16 @@
 - Clonar o repositório
 - Configurar servidor web para apontar para a <pasta-aonde-o-site-foi-instalado>/public
 - Instalar certificado SSL (precisamos que a página seja acessível **via https apenas**)
-- Criar um banco de dados (se necessário)
-- Entrar na pasta do site
-- Copiar o arquivo .env.example para .env
-- Editar o arquivo .env e configurar os dados do sistema, inclusive banco de dados e setar o APP_ENV=production
-- Executar o comando "composer install" para instalar todas as dependências
-- Restaurar backup do banco de dados ou executar o comando "php artisan migrate" para criar a estrutura do banco de dados
-- Executar o comando `php artisan migrate` para atualizar a estrutura do banco de dados (caso já não tenha sido executado)
+- Criar o banco do dados
+- Entrar na <pasta-aonde-o-site-foi-instalado>
+- Copiar o arquivo `.env.example` para `.env`
+- Editar o arquivo `.env` e configurar todos dados do sistema
+- Ainda no arquivo `.env`, alterar a variável `APP_ENV` para o ambiente correto (testing, staging, production)
+- Ainda no arquivo `.env`, configurar banco de dados
+- Executar o comando `composer install` para instalar todas as dependências da aplicação
+- Banco de dados
+    - Restaurar backup do banco de dados ou executar o comando `php artisan migrate` para criar a estrutura do banco de dados
+    - Executar o comando `php artisan migrate` para atualizar a estrutura do banco de dados (caso já não tenha sido executado)
 
 ### Atualizando a aplicação
 
