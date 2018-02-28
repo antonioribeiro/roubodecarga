@@ -13,7 +13,7 @@
 ### Instalação 
 #### Guia genérico de uma aplicação desenvolvida em PHP pelo Projetos Especiais
 
-- Clonar o repositório
+- Clonar o repositório (branch: staging [homologação] or production [produção])
 - Configurar servidor web para apontar para a **`<pasta-aonde-o-site-foi-instalado>`/public**
 - Instalar certificado SSL (precisamos que a página seja acessível **via https apenas**)
 - Criar o banco do dados
