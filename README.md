@@ -22,7 +22,7 @@
 - Editar o arquivo `.env` e configurar todos dados do sistema
 - Ainda no arquivo `.env`, alterar a variável `APP_ENV` para o ambiente correto (testing, staging, production)
 - Ainda no arquivo `.env`, configurar banco de dados
-- Executar o comando `composer install --no-dev` para instalar todas as dependências da aplicação
+- Executar o comando `composer install --no-interaction --prefer-dist --optimize-autoloader --no-dev` para instalar todas as dependências da aplicação
 - Banco de dados
     - Caso **não** haja backup: executar o comando `php artisan migrate` para **criar** a estrutura do banco de dados
     - Caso haja backup: restaurar o banco e executar o comando `php artisan migrate` para **atualizar** a estrutura do banco de dados
@@ -31,7 +31,7 @@
 
 - Entrar na `<pasta-aonde-o-site-foi-instalado>`
 - Baixar as atualizações de código fonte usando Git (git pull ou git fetch + git merge, isso depende de como operador prefere trabalhar com Git)
-- Executar o comando `composer install --no-dev` para instalar todas as dependências (atualizadas)
+- Executar o comando `composer install --no-interaction --prefer-dist --optimize-autoloader --no-dev` para instalar todas as dependências (atualizadas)
 - Executar o comando `php artisan migrate` para atualizar o banco de dados
 
 #### Passos extras específicos desta aplicação
